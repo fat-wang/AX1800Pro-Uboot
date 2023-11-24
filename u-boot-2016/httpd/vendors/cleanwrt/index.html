@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>固件更新</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="shortcut icon" href="f.png">
+	</head>
+	<body>
+		<div id="m">
+			<h1>固件更新</h1>
+			<p>此页面用于路由器操作系统的固件更新<br>请选择要更新的路由器固件文件并点击 <strong>更新固件</strong> 按钮。</p>
+			<form method="post" enctype="multipart/form-data">
+				<input type="file" name="firmware">
+				<input type="submit" value="更新固件">
+			</form>
+			<div class="i w red">
+				<strong>提醒：</strong>
+				<ul>
+					<li>固件更新支持openwrt factory格式和京东云无线宝原厂固件格式。</li>
+					<li>在更新期间不要断开路由器电源，如果更新顺利，设备将自动重启。</li>
+				</ul>
+			</div>
+		</div>
+		<div id="f">version:23.05.28</div>
+	</body>
+</html>
